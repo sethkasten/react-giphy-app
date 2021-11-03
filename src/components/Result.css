@@ -1,0 +1,33 @@
+.Result {
+  background-color: #16191d;
+  border: 1px solid #2f3336;
+  list-style: none;
+  padding: 0px 10px 50px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Result p {
+  font-weight: 750;
+}
+
+.Result a {
+  margin: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  text-decoration: none;
+  color: #28b39d;
+  font-weight: 750;
+}
+
+.Result img {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .Result {
+    margin: 5px;
+  }
+}

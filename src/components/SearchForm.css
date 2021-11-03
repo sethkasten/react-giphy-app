@@ -1,0 +1,35 @@
+.SearchForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  width: 100%;
+}
+
+.SearchForm #search {
+  padding: 10px;
+  border-radius: 2.5px;
+  border: none;
+  width: 100%;
+}
+
+.SearchForm .SearchBarButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.SearchForm button {
+  color: #fff;
+  background-color: #145a4f;
+  border: none;
+  border-radius: 2.5px;
+  height: 25px;
+  padding: 15px;
+  line-height: 0;
+  margin: 0 20px 0 5px;
+}
+
+.SearchForm button:hover {
+  background-color: #1a7567;
+}

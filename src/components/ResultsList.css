@@ -1,0 +1,15 @@
+.ResultsList {
+  padding: 0;
+  margin: 0;
+}
+
+.ResultsList h2 {
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Array {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
